@@ -4,15 +4,31 @@
     text-transform: uppercase;
 } 
 
+h1 {
+    color:  rgb(21, 6, 230);
+    font-family: 'Poppins', sans-serif;
+}
+
 a:hover {
     text-transform: uppercase;
-    color:  rgb(234, 149, 245);
+    color:  rgb(125, 131, 100);
+}
+
+nav {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: left;
+    min-height: 10mm;
+    background-color: rgb(24, 46, 212);
+    font-family: 'Poppins', sans-serif; 
+    border-radius: 5mm;
 }
 
 body, html {
     margin: 0;
     font-family: sans-serif;
-    background-color: rgb(69, 71, 85);
+    background-color: rgb(206, 217, 224);
+    
 }
 
 .content {
@@ -21,7 +37,7 @@ body, html {
 }
 
 table, td, th {
-    border: 1px solid #aaa;
+    border: 1px solid rgba(13, 35, 110, 0.582);
 }
 
 table {
@@ -31,15 +47,18 @@ table {
 
 th {
     height: 30px;
+    
 }
 
 td {
     text-align: center;
     padding: 5px;
+    
 }
 
 .form {
     margin-top: 20px;
+
 }
 
 #content {
